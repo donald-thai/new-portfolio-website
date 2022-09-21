@@ -1,0 +1,13 @@
+.project-wrapper {
+  height: 80vh;
+  width: 100vw;
+}
+
+.project-hero {
+  padding-left: var(--page-pading);
+  padding-right: var(--page-pading);
+}
+
+.project-text {
+  text-align: center;
+}
