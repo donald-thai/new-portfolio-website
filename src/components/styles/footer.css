@@ -1,0 +1,31 @@
+.footer-wrapper {
+  padding: 1.2em var(--page-pading);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--background);
+}
+
+.footer-icons-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-icon {
+  color: var(--icon-color);
+  margin-right: .5em;
+}
+
+.footer-icon:hover {
+  color: var(--icon-hover-color);
+}
+
+.footer-copyright {
+  margin-top: .6em;
+}
+
+.footer-copyright h4 {
+  color: gray;
+  font-weight: 400;
+}
