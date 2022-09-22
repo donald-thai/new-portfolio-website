@@ -1,12 +1,6 @@
 import React from "react";
 import { BsArrowDown } from "react-icons/bs";
-// import Card from '@mui/material/Card';
-// import CardHeader from '@mui/material/CardHeader';
-// import CardMedia from '@mui/material/CardMedia';
-// import CardContent from '@mui/material/CardContent';
-// import CardActions from '@mui/material/CardActions';
 import { motion, useAnimationControls } from "framer-motion";
-import Card from "../components/Card";
 import "./styles/home.css";
 import { Avatar, Button } from "@mui/material";
 import { useNavigate } from "react-router-dom";
@@ -15,7 +9,7 @@ const Home = () => {
   let navigate = useNavigate();
   let controls = useAnimationControls();
 
-  const base_time = .8;
+  const base_time = 1;
 
   return (
     <div className="home-wrapper">
@@ -121,15 +115,6 @@ const Home = () => {
 
       <div
         className="home-info-wrapper home-info-about-section"
-        // animate={controls}
-        // onHoverEnd={{
-        //   boxShadow: "none",
-        //   transition: {
-        //     duration: 1
-        //   }
-        // }}
-        // onHoverStart={() => controls.start(hover_start_animation)}
-        // onHoverEnd={() => controls.start(hover_end_animation)}
       >
         <div className="home-info-about-content">
           <h1>A little more about me 👋</h1>

@@ -1,10 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import "./styles/about.css";
 
 const About = () => {
-  const base_enter = 2;
+  const base_enter = 1.5;
   const [exit, setExit] = useState(false);
+
+  // ensures that we are at the top of the page when navigating here
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
+
   return (
     <div className="about-wrapper">
       <div className="about-content-wrapper">
@@ -57,12 +64,22 @@ const About = () => {
               omnis doloremque necessitatibus dicta reprehenderit similique
               tempore officiis nihil vero cumque animi! Est aspernatur mollitia
               pariatur!{" "}
+              <br />
+              <br />
+              Here is a link to my <a href="https://drive.google.com/file/d/1J4o-jj0oSYTQXdWl3IZYomppUoufHP77/view?usp=sharing" target="__blank">resume</a> or it can be viewed below.
+
             </p>
           </div>
 
         </motion.div>
         <div className="about-my-interests">
           <h1>My Interests</h1>
+          <h4>
+            I love to watch <a href="">movies</a>, read <a href="">books</a>, learn new things, and play sports - basketball, volleyball, and ultimate frisbee. I'd also love to get into <a href="">photography</a>. 
+          </h4>
+        </div>
+        <div className="about-my-resume">
+          
         </div>
       </div>
     </div>
