@@ -1,0 +1,58 @@
+.about-wrapper {
+
+}
+
+.about-content-wrapper {
+  width: 100%;
+  height: 100%;
+  background-color: var(--background);
+  padding-left: var(--page-padding-l3);
+  padding-right: var(--page-padding-l3);
+  padding-bottom: 5em;
+}
+
+.about-fading-text {
+  position: absolute;
+  top: 45%;
+  left: 0;
+  transform: translate(-50%);
+  text-align: center;
+  width: 100%;
+  font-size: 3rem;
+}
+
+.about-hero-wrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 3em;
+}
+
+.about-hero-wrapper img {
+  object-position: center;
+  object-fit: cover;
+  height: 65vh;
+  width: 40%;
+  margin-right: 3em;
+  border-radius: 2em;
+}
+
+.about-my-description {
+  width:40%;
+}
+
+.about-my-description h1 {
+  margin-bottom: .4em;
+  font-size: 2rem;
+}
+
+.about-my-description p {
+  font-size: 1.5rem;
+}
+
+.about-my-interests {
+  margin-top: 6em;
+}
+
+.about-my-interests h1 {
+  text-align: center;
+}

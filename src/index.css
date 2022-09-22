@@ -41,6 +41,7 @@ ul {
   --icon-hover-color: #000;
   --page-pading: 3em;
   --deeper-page-pading: 5em;
+  --page-padding-l3: 12em;
 }
 [data-theme='dark'] {
   --background: #1A1A1A;
