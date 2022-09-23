@@ -24,13 +24,14 @@
 .about-hero-wrapper {
   display: flex;
   justify-content: center;
+  align-items: center;
   margin-top: 3em;
 }
 
 .about-hero-wrapper img {
   object-position: center;
   object-fit: cover;
-  height: 65vh;
+  height: 80%;
   width: 40%;
   margin-right: 3em;
   border-radius: 2em;

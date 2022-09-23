@@ -7,13 +7,15 @@
   align-items: center;
   color: var(--text-primary);
   z-index: 3;
-  padding: 1.2em var(--page-pading);
+  padding: 1.9em var(--page-pading);
   /* border-bottom: 1px #ECECEC solid; */
-  opacity: .9;
-  background-color: transparent;
+  background-color: var(--background);
+  /* background-color: hsla(0,0%,100%,0);
+  backdrop-filter: blur(80px); */
 }
 
 .header-nav-bar ul {
+  z-index: 4;
   display: flex;
 }
 

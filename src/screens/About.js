@@ -59,11 +59,8 @@ const About = () => {
             <h1>I'm Donald, an aspiring software engineer</h1>
             <p>
               I am a sophomore majoring in Computer Science at the University of
-              Texas at Austin. Lorem, ipsum dolor sit amet consectetur
-              adipisicing elit. Provident dolor adipisci pariatur quod, fugiat
-              omnis doloremque necessitatibus dicta reprehenderit similique
-              tempore officiis nihil vero cumque animi! Est aspernatur mollitia
-              pariatur!{" "}
+              Texas at Austin. As a TECDP intern at Cigna during the summer of 2022, I worked in an AGILE team to create a dashboard from start to almost MVP release while also working in a team of interns to develop a mobile app, <a href="/projects">WorkFlow</a>, to help employees make the most of their in-person days.
+              <br/> <br/> I am interested in software engineering roles, especially front end and full stack ones.
               <br />
               <br />
               Here is a link to my <a href="https://drive.google.com/file/d/1J4o-jj0oSYTQXdWl3IZYomppUoufHP77/view?usp=sharing" target="__blank">resume</a> or it can be viewed below.
