@@ -12,7 +12,7 @@ const Footer = () => {
         <a href="mailto:donaldthai@utexas.edu"><IoMdMail size={36} className="footer-icon" /></a>
       </div>
       <div className="footer-copyright">
-        <h4>© 2022 Donald Thai</h4>
+        <h4>© 2022 Donald Thai. All rights reserved.</h4>
       </div>
     </div>
   )

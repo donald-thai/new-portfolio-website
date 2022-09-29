@@ -7,6 +7,7 @@ import Home from "./screens/Home";
 import Projects from "./screens/Projects";
 import About from "./screens/About";
 import Contact from "./screens/Contact";
+import NotFound from "./screens/NotFound";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
@@ -16,10 +17,13 @@ root.render(
     <React.StrictMode>
       <Routes>
         <Route path='/' element={<App />}>
-        <Route path='/' element={<Home />}/>
-        <Route path='/projects' element={<Projects />}/>
-        <Route path='/about' element={<About />}/>
-        <Route path='/contact' element={<Contact />}/>
+          <Route path='' element={<Home />}/>
+          <Route path='projects' element={<Projects />}>
+            
+          </Route>
+          <Route path='about' element={<About />}/>
+          {/* <Route path='contact' element={<Contact />}/> */}
+          <Route path='*' element={<NotFound />}/>
         </Route>
       </Routes>
     </React.StrictMode>
