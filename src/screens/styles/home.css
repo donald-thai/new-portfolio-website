@@ -183,6 +183,13 @@
 } */
 
 @media screen and (max-width: 1050px) {
+
+  .home-hero-wrapper {
+    padding-top: 1em;
+    height: 80vh;
+    padding-bottom: 10em;
+  }
+
   .home-hero-wrapper h1 {
     font-size: 4rem;
     line-height: 3.5rem;
@@ -201,7 +208,7 @@
   }
 
   .home-info-wrapper {
-    margin-top: 3em;
+    margin-top: 6em;
   }
 
   .home-info-wrapper h1 {
