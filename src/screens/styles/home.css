@@ -186,8 +186,7 @@
 
   .home-hero-wrapper {
     padding-top: 1em;
-    height: 80vh;
-    padding-bottom: 10em;
+    height: 90vh;
   }
 
   .home-hero-wrapper h1 {
@@ -208,7 +207,7 @@
   }
 
   .home-info-wrapper {
-    margin-top: 6em;
+    margin-top: 3em;
   }
 
   .home-info-wrapper h1 {
@@ -229,6 +228,7 @@
 @media screen and (max-width: 570px) {
 
   .home-info-wrapper {
+    margin-top: 3em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding-left: .5em;
