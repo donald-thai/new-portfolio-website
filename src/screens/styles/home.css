@@ -13,6 +13,7 @@
 } */
 
 .home-hero-wrapper {
+  margin-top: .5em;
   padding-left: var(--page-pading);
   padding-right: var(--page-pading);
   height: 95vh;
@@ -122,13 +123,6 @@
   transform: translateY(-5px);
 }
 
-/* 
-.home-info-section {
-  padding-top: 2em;
-  padding-right: 2em;
-  padding-left: 2em;
-} */
-
 .home-info-wrapper h1 {
   font-size: 2.4rem;
   margin-bottom: .2em;
@@ -188,7 +182,7 @@
 
 } */
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .home-hero-wrapper h1 {
     font-size: 4rem;
     line-height: 3.5rem;
@@ -255,7 +249,6 @@
   }
 
   .home-hero-bottom {
-    margin-top: 2em;
     justify-content: center;
     align-items: center;
   }
