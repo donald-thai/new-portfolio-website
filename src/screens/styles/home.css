@@ -237,6 +237,11 @@
     justify-content: center;
   }
 
+  .home-hero-wrapper {
+    height: 80vh;
+    padding-bottom: 10em;
+  }
+
   .home-hero-wrapper h1 {
     font-size: 3rem;
     text-align: center;
