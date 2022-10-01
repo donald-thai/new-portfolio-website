@@ -186,7 +186,7 @@
 
   .home-hero-wrapper {
     padding-top: 1em;
-    height: 90vh;
+    height: 92vh;
   }
 
   .home-hero-wrapper h1 {
@@ -199,7 +199,6 @@
   }
 
   .home-hero-bottom {
-    margin-top: 2em;
   }
 
   .home-first-image {
@@ -207,7 +206,7 @@
   }
 
   .home-info-wrapper {
-    margin-top: 3em;
+    margin-top: 2em;
   }
 
   .home-info-wrapper h1 {
@@ -228,7 +227,7 @@
 @media screen and (max-width: 570px) {
 
   .home-info-wrapper {
-    margin-top: 3em;
+    margin-top: 4em;
     margin-left: 1.5em;
     margin-right: 1.5em;
     padding-left: .5em;
@@ -247,7 +246,6 @@
   .home-hero-wrapper {
     padding-top: 1em;
     height: 80vh;
-    padding-bottom: 10em;
   }
 
   .home-hero-wrapper h1 {
