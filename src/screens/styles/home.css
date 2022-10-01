@@ -13,11 +13,11 @@
 } */
 
 .home-hero-wrapper {
-  margin-top: .5em;
+  padding-top: .5em;
   padding-left: var(--page-pading);
   padding-right: var(--page-pading);
-  height: 95vh;
   padding-bottom: 5em;
+  height: 95vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -238,6 +238,7 @@
   }
 
   .home-hero-wrapper {
+    padding-top: 1em;
     height: 80vh;
     padding-bottom: 10em;
   }

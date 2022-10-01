@@ -95,12 +95,12 @@
     width: 100%;
     justify-content: center;
     padding-bottom: 2em;
-    height: 50vh;
+    height: 45vh;
   }
 
   .project-card-mobile-image {
     margin-top: 1em;
-    height: 90%
+    height: 100%
   }
 
   .project-card-computer-image {

@@ -72,7 +72,7 @@
   text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
 
   .about-content-wrapper {
     padding-left: var(--deeper-page-pading);
