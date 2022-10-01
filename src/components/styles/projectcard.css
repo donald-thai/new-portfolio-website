@@ -77,9 +77,14 @@
   height: 100%
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .project-card-computer-image {
-    height: 60%;
+    height: 50%;
+  }
+
+  .project-card-mobile-image {
+    margin-top: 1em;
+    height: 90%
   }
 }
 
