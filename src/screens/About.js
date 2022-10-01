@@ -7,9 +7,7 @@ const About = () => {
   const [exit, setExit] = useState(false);
 
   // ensures that we are at the top of the page when navigating here
-  useEffect(() => {
-    window.scrollTo(0, 0)
-  }, [])
+
 
 
   return (

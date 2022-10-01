@@ -33,8 +33,7 @@ const ProjectCard = ({title, type, route, image_src, image_alt, wrapper_style, t
         <img
           src={image_src}
           alt={image_alt}
-          className="project-card-image"
-          style={image_style}
+          className={`project-card-image ${image_style}`}
         />
       </div>
     </motion.div>

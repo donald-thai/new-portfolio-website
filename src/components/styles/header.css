@@ -46,3 +46,25 @@
   transform-origin: left center;
   transition-duration: .4s;
 }
+
+
+@media screen and (max-width: 800px) {
+  .header-nav-bar ul li a {
+    padding: .2em;
+    margin: 0 .5em;
+    position: relative;
+    color: var(--text-primary);
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .header-wrapper {
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+  }
+
+  .header-nav-bar ul li a {
+    margin: 0 .1em;
+  }
+}

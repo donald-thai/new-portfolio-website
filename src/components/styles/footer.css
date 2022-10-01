@@ -29,3 +29,9 @@
   color: gray;
   font-weight: 400;
 }
+
+@media screen and (max-width: 570px) {
+  .footer-copyright {
+    text-align: center;
+  }
+}

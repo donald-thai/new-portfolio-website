@@ -1,4 +1,3 @@
-import React from "react";
 import { BsArrowDown } from "react-icons/bs";
 import { motion } from "framer-motion";
 import "./styles/home.css";
@@ -8,7 +7,6 @@ import ProjectCard from "../components/ProjectCard";
 
 const Home = () => {
   let navigate = useNavigate();
-
   const base_time = 1;
 
   return (
@@ -51,6 +49,7 @@ const Home = () => {
               alt="Donald Thai"
             />
           </motion.div>
+        </div>
           <div className="home-hero-bottom">
             <motion.div
               initial={{
@@ -104,7 +103,6 @@ const Home = () => {
               software <br /> engineer
             </motion.h1>
           </div>
-        </div>
         {/* <div className="home-left-wrapper">
           <div className="home-second-image"></div>
           <div className="home-title-wrapper">
@@ -174,6 +172,7 @@ const Home = () => {
           background:
             "linear-gradient(180.14deg,#004986 .12%,#22303C 62.01%)#1a1a1a",
         }}
+        image_style={"project-card-mobile-image"}
       />
     </div>
   );

@@ -26,6 +26,7 @@
   justify-content: center;
   align-items: center;
   margin-top: 3em;
+  flex-direction: row;
 }
 
 .about-hero-wrapper img {
@@ -69,4 +70,84 @@
 .about-content-wrapper a {
   font-weight: 600;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 800px) {
+
+  .about-content-wrapper {
+    padding-left: var(--deeper-page-pading);
+    padding-right: var(--deeper-page-pading);
+  }
+  
+
+  .about-hero-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-hero-wrapper img {
+    width: 100%;
+    height: 60vh;
+    margin-bottom: 1.5em;
+  }
+  
+  .about-my-description {
+    width:100%;
+  }
+  
+  .about-my-description h1 {
+    margin-bottom: .4em;
+    font-size: 1.8rem;
+  }
+  
+  .about-my-description p {
+    font-size: 1.4rem;
+  }
+
+  .about-my-interests {
+    text-align: center;
+    padding-left: 0;
+    padding-right: 0;
+    margin-top: 3em;
+  }
+
+  .about-my-interests h4 {
+    font-weight: 400;
+    font-size: 1.4rem;
+  }
+  
+}
+
+@media screen and (max-width: 570px) {
+
+  .about-content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: var(--page-pading);
+    padding-right: var(--page-pading);
+  }
+
+  .about-fading-text {
+    font-size: 2rem;
+  }
+
+  .about-hero-wrapper {
+    margin-top: 1em;
+  }
+
+  .about-hero-wrapper img {
+    width: 100%;
+    height: 60vh;
+    margin-right: 0;
+  }
+
+  .about-my-description h1 {
+    text-align: center;
+  }
+
+  .about-my-interests h4 {
+    text-align: left;
+  }
 }

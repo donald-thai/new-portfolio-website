@@ -43,6 +43,7 @@ const Projects = () => {
             background:
               "linear-gradient(180.14deg,#004986 .12%,#22303C 62.01%)#1a1a1a",
           }}
+          image_style={"project-card-mobile-image"}
         />
 
         <ProjectCard
@@ -55,9 +56,8 @@ const Projects = () => {
             background:
               "linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(40,40,40,1) 100%)",
           }}
-          image_style={{
-            height: "70%",
-          }}
+          image_style={"project-card-computer-image"}
+
         />
 
         {/* Pic from https://www.freepik.com/ */}
@@ -74,9 +74,8 @@ const Projects = () => {
           type_style={{
             color: "#1A1A1A"
           }}
-          image_style={{
-            height: "70%",
-          }}
+          image_style={"project-card-computer-image"}
+
         />
 
         {/* Pic from https://www.flaticon.com/ */}
@@ -93,9 +92,7 @@ const Projects = () => {
           type_style={{
             color: "#1A1A1A"
           }}
-          image_style={{
-            height: "70%",
-          }}
+          image_style={"project-card-computer-image"}
         />
 
 

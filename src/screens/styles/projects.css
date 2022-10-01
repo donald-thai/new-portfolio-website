@@ -8,8 +8,13 @@
   padding-right: var(--page-pading);
 }
 
+
 .project-text {
   text-align: center;
+}
+
+.projects-wrapper {
+  padding-bottom: 2em;
 }
 
 .projects-top {
@@ -17,7 +22,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-bottom: 2.5em;
 }
 
 .projects-top h1 {
@@ -31,3 +35,12 @@
   font-weight: 450;
 }
 
+@media screen and (max-width: 570px) {
+  .projects-top h1 {
+    font-size: 3rem;
+  }
+  
+  .projects-top h4 {
+    font-size: .95rem;
+  }
+}
