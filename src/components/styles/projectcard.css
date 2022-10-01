@@ -13,6 +13,7 @@
   position: relative;
   border-radius: 1em;
   transition: transform .8s ease-out;
+  height: 110vh;
 }
 
 .project-card-wrapper::before {
@@ -74,17 +75,22 @@
 }
 
 .project-card-mobile-image {
-  height: 100%
+  height: 90%
 }
 
 @media screen and (max-width: 1050px) {
+
+  .project-card-wrapper {
+    height: 105vh;
+  }
+
   .project-card-computer-image {
-    height: 50%;
+    height: 55%;
   }
 
   .project-card-mobile-image {
-    margin-top: 1em;
-    height: 90%
+    margin-top: -1em;
+    height: 80%
   }
 }
 
@@ -93,6 +99,7 @@
     margin-left: 1.5em;
     margin-right: 1.5em;
     margin-top: 3em;
+    height: 65vh;
   }
 
   .project-card-image-wrapper {
