@@ -48,10 +48,10 @@
 }
 
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .header-nav-bar ul li a {
     padding: .2em;
-    margin: 0 .5em;
+    margin: 0.5em;
     position: relative;
     color: var(--text-primary);
     font-size: 1rem;
